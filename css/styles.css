@@ -604,19 +604,19 @@ input[type='checkbox'] {
 
 .basic-2 .text-box {
 	margin-bottom: 3rem;
-	height: 22rem;
+	height: 24rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 3.5rem 1rem 2.125rem 1rem;
 	border: 1px solid #cfd7de;
-	transition: 0.2s;
+	position: relative;
 }
 
-.basic-2 .text-box:hover
+.basic-2 .text-box a img:hover
 {
 	transition: 0.2s;
-	scale: 1.05;
+	scale: 1.3;
 }
 
 .basic-2 .text-box h4
@@ -638,6 +638,14 @@ input[type='checkbox'] {
 
 .basic-2 h4 {
 	letter-spacing: 1px;
+}
+
+#services .text-box a 
+{
+	margin-top: auto; /* Permet de pousser l'image vers le bas */
+	position: absolute; /* Position absolue pour coller l'image en bas */
+	bottom: 1.5rem; /* Ajustez la valeur selon votre besoin */
+	transition: 0.2s;
 }
 
 
