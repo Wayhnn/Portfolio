@@ -1,0 +1,9 @@
+#projects .image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basic-2 {
+    padding: 0;
+}
