@@ -677,6 +677,17 @@ input[type='checkbox'] {
 	margin-bottom: 0.75rem;
 }
 
+.basic-2 div>div>img
+{
+	transition: 0.2s;
+}
+
+.basic-2 div>div>img:hover
+{
+	transition: 0.2s;
+	transform: scale(1.5);
+}
+
 
 /********************/
 /*     Projects     */
