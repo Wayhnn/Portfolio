@@ -564,8 +564,8 @@ input[type='checkbox'] {
 }
 
 .header img{
-	height: 400px;
-	border-radius: 50%;
+	height: 300px;
+	border-radius: 40%;
 }
 
 
@@ -598,6 +598,11 @@ input[type='checkbox'] {
 /********************/
 /*     Services     */
 /********************/
+
+.details { 
+	margin-top: auto;
+}
+
 .basic-2 {
 	padding-top: 7.75rem;
 	padding-bottom: 5.25rem;
@@ -629,7 +634,7 @@ input[type='checkbox'] {
 
 .basic-2 .text-box:hover, .basic-2 .exp-box:hover{
 	transition: 0.3s;
-	scale: 1.1;
+	scale: 1.05;
 }
 
 .basic-2 .text-box h4
@@ -663,7 +668,7 @@ input[type='checkbox'] {
 
 .basic-2 .exp-box {
 	margin-bottom: 3rem;
-	height: 24rem;
+	height: 20rem;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -675,11 +680,6 @@ input[type='checkbox'] {
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 	transition: 0.3s;
 }
-
-.basic-2 .exp-box .img-ctn {
-	
-}
-
 
 
 /*******************/
@@ -696,35 +696,36 @@ input[type='checkbox'] {
 	padding-bottom: 7.75rem;
 }
 
-.split p {
-	margin-bottom: 2.25rem;
+
+.icons-container {
+	margin-top: 2rem;
 }
 
-.split .icons-container {
-	margin-top: 3rem;
-}
-
-.split .icons-container img {
-	width: 50px;
+.icons-container img {
+	width: 55px;
 	margin-right: 0.625rem;
 	margin-bottom: 0.75rem;
 }
 
-.basic-2 div>div>img
-{
+.icons-container img {
+	width: 55px;
+	margin-right: 0.625rem;
+	margin-bottom: 0.75rem;
 	transition: 0.2s;
 }
 
-.basic-2 div>div>img:hover
-{
+.icons-container img:hover {
 	transition: 0.2s;
-	transform: scale(1.5);
+	scale: 1.5;
 }
+
+
 
 
 /********************/
 /*     Projects     */
 /********************/
+
 .basic-3 {
 	padding-top: 7.75rem;
 	padding-bottom: 1rem;
@@ -964,6 +965,36 @@ a:hover.back-to-top {
 	margin-top: 0.125rem;
 	margin-bottom: 0.375rem;
 }
+
+.skill-box {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 1.25rem 1rem;
+    height: 100%;
+
+    /* Ombre uniforme tout autour (y compris au-dessus) */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+    transition: 0.3s;
+}
+
+.skill-box i {
+    font-size: 2.5rem;
+    color: #0b36a8; /* bleu de ton thème */
+    margin-bottom: 0.75rem;
+}
+
+.skill-box p {
+    margin: 0;
+    font-weight: 600;
+}
+
+.skill-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 28px rgba(0, 0, 0, 0.22);
+}
+
+
 
 
 /*************************/
