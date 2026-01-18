@@ -994,6 +994,39 @@ a:hover.back-to-top {
     box-shadow: 0 0 28px rgba(0, 0, 0, 0.22);
 }
 
+.project-modal {
+    display: none;
+    position: fixed;
+    z-index: 3000;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.project-modal-content {
+    background-color: #ffffff;
+    margin: 4vh auto;
+    padding: 2rem;
+    width: 92%;
+    max-width: 1200px;
+    max-height: 92vh;
+    overflow-y: auto;
+    border-radius: 14px;
+    position: relative;
+}
+
+.project-modal-close {
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #333;
+}
+
+.project-modal-close:hover {
+    color: #0b36a8;
+}
 
 
 
